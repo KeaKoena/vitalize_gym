@@ -1,0 +1,34 @@
+/* Pink gradient theme */
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: system-ui, Arial, sans-serif;
+  background: linear-gradient(135deg,#ff9ac2,#ff6aa2);
+  min-height:100vh;
+  color:#333;
+}
+.container{
+  max-width:980px; margin:24px auto; padding:20px;
+  background:#fff; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+h1,h2{margin:0 0 16px 0}
+table{width:100%; border-collapse:collapse; background:#fff; overflow:hidden; border-radius:12px}
+th,td{padding:12px 10px; border-bottom:1px solid #eee; text-align:left}
+th{background:#fff0f6; font-weight:700}
+input,select,textarea{width:100%; padding:10px; border:1px solid #ddd; border-radius:10px; margin:6px 0 12px}
+button,.btn{background:#ff4b86; color:#fff; border:none; padding:10px 16px; border-radius:999px; cursor:pointer; text-decoration:none; display:inline-block}
+button:hover,.btn:hover{filter:brightness(0.95)}
+.navbar{background:#333; padding:10px 20px}
+.navbar ul{display:flex; gap:18px; list-style:none; margin:0; padding:0}
+.navbar a{color:#fff; text-decoration:none; font-weight:600}
+.navbar a.active,.navbar a:hover{color:#ffcc66; border-bottom:2px solid #ffcc66; padding-bottom:2px}
+.alert{padding:10px 14px; border-radius:10px; margin:10px 0; font-weight:600}
+.alert.success{background:#e6ffed; border:1px solid #b7f5c8; color:#0b6b2b}
+.alert.error{background:#ffeaea; border:1px solid #ffc0c0; color:#8a0d0d}
+.dashboard{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:18px}
+.card{background:#fff; padding:22px; border-radius:16px; text-align:center; box-shadow:0 8px 20px rgba(0,0,0,.08)}
+.card a{color:#333; font-weight:700; text-decoration:none}
+.progress-bar{background:#eee; border-radius:20px; overflow:hidden; height:24px; width:100%}
+.progress-fill{background:linear-gradient(90deg,#ff4b2b,#ff416c); height:100%; color:#fff; text-align:center; line-height:24px; white-space:nowrap}
+.searchbar{display:flex; gap:8px; margin:12px 0}
+.searchbar input,.searchbar select{flex:1}
